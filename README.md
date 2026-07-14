@@ -38,4 +38,11 @@ If your GitHub username is `joao123`, the URLs will be:
 - `https://joao123.github.io/orun-social-pages/terms-of-service.html`
 - `https://joao123.github.io/orun-social-pages/privacy-policy.html`
 
+## TikTok Developer Site Verification
+
+Your verification URL is:
+- `https://YOUR-USERNAME.github.io/orun-social-pages/tiktok-developers-site-verification=qmcX0hbTaIeJHo6ldTq1eD7KhN8QUKzg.txt`
+
+Copy this URL into the TikTok developer form!
+
 ## Copy these URLs into the TikTok developer form!
