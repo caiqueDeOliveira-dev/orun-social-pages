@@ -1,48 +1,42 @@
-# How to deploy to GitHub Pages
+# Orun Social Pages
 
-## Step 1: Create a GitHub repository
+Páginas legais (**Termos de Uso** e **Política de Privacidade**) publicadas via **GitHub Pages**, usadas nas revisões de app store e na verificação de desenvolvedor do TikTok para os apps sociais Orun.
 
-1. Go to https://github.com/new
-2. Name it: `orun-social-pages`
-3. Make it **Public**
-4. Click "Create repository"
+![Tipo](https://img.shields.io/badge/tipo-páginas%20legais-blue)
+![Host](https://img.shields.io/badge/hosting-GitHub%20Pages-222)
 
-## Step 2: Upload the files
+## Arquivos
 
-1. Click "uploading an existing file"
-2. Drag and drop both HTML files:
-   - `terms-of-service.html`
-   - `privacy-policy.html`
-3. Click "Commit changes"
+| Arquivo | Conteúdo |
+|---|---|
+| `terms-of-service.html` | Termos de Uso (Terms of Service) |
+| `privacy-policy.html` | Política de Privacidade |
+| `tiktok-developers-site-verification=*.txt` | Arquivo de verificação do TikTok Developers |
 
-## Step 3: Enable GitHub Pages
+## URLs publicadas
 
-1. Go to your repository **Settings**
-2. Click **Pages** (left sidebar)
-3. Under "Source", select **Deploy from a branch**
-4. Under "Branch", select **main** and folder **/ (root)**
-5. Click **Save**
+Após o deploy, as páginas ficam em:
 
-## Step 4: Get your URLs
+- **Termos de Uso:** `https://caiqueDeOliveira-dev.github.io/orun-social-pages/terms-of-service.html`
+- **Política de Privacidade:** `https://caiqueDeOliveira-dev.github.io/orun-social-pages/privacy-policy.html`
 
-After a few minutes, your pages will be live at:
+## Deploy (GitHub Pages)
 
-- **Terms of Service:** `https://YOUR-USERNAME.github.io/orun-social-pages/terms-of-service.html`
-- **Privacy Policy:** `https://YOUR-USERNAME.github.io/orun-social-pages/privacy-policy.html`
+Este repositório é **público** (exigência do GitHub Pages para a verificação). Para publicação:
 
-Replace `YOUR-USERNAME` with your actual GitHub username.
+1. Suba os arquivos na branch `main`.
+2. **Settings → Pages** → Source: *Deploy from a branch*.
+3. Branch: `main`, pasta: `/ (root)` → **Save**.
+4. Em alguns minutos as URLs acima ficam ativas.
 
-## Example
+## Verificação TikTok Developers
 
-If your GitHub username is `joao123`, the URLs will be:
-- `https://joao123.github.io/orun-social-pages/terms-of-service.html`
-- `https://joao123.github.io/orun-social-pages/privacy-policy.html`
+O arquivo `tiktok-developers-site-verification=*.txt` precisa ficar acessível na raiz publicada. A URL correspondente é informada no formulário de verificação do TikTok Developer.
 
-## TikTok Developer Site Verification
+## Parte do ecossistema Orun
 
-Your verification URL is:
-- `https://YOUR-USERNAME.github.io/orun-social-pages/tiktok-developers-site-verification=qmcX0hbTaIeJHo6ldTq1eD7KhN8QUKzg.txt`
+Páginas legais compartilhadas pelos apps sociais do ecossistema Orun.
 
-Copy this URL into the TikTok developer form!
+## Licença
 
-## Copy these URLs into the TikTok developer form!
+Proprietário — © 2026 Caique de Oliveira (Orun ST). Todos os direitos reservados.
